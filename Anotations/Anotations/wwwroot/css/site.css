@@ -1,18 +1,45 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.anotation-container {
+}
+
+.anotation-subcontainer {
+    background: rgb(232, 232, 232);
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.anotation-subcontainer:hover {
+    background: rgb(220, 220, 220);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.name-container {
+}
+
+.content-container {
+    background: rgb(200, 200, 200);
+    min-height: 200px;
+    max-height: 230px;
+    overflow: hidden;
+    border-radius: 5px
 }

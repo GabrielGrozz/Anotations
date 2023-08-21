@@ -1,8 +1,32 @@
-﻿@{
+﻿@model AnotationsViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-fluid">
+    <h1 class="display-1 text-center">AnotationsClip</h1>
+    <div class="About-container container">
+        <h2 class="display-4 about-title">Sobre</h2>
+        <p class="about-container p-2 fs-4">
+            Esse é um projeto para portifólio que desenvolvi para ser um sistema de anotações, sejam elas lembretes ou um diário virtual.
+            Como se trata do meu primeiro projeto utilizando ASP.NET MVC resolvi fazer algo mais simples para fixar um pouco sobre a
+            parte do banco de dados, espero que ache interresante.
+        </p>
+    </div>
+</div>
+
+
+<div class="container p-3">
+    <div class="row">
+        @foreach (var anotation in Model.Anotations)
+        {
+            <div class="anotation-container col-sm-6 col-md-4 col-lg-3 p-2 pb-4">
+                <div class="anotation-subcontainer">
+                    <h2 class="name-container mb-4">@anotation.Name</h2>
+                    <p class="content-container fs-5 m-0 p-1 p-sm-2 p-md-2 p-lg-3">@anotation.Content</p>
+                </div>
+
+            </div>
+        }
+    </div>
 </div>

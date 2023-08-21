@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuário\\Source\\Repos\\Anotations\\Anotations\\Anotations\\Anotations.csproj": {}
+    "C:\\Users\\Usuário\\source\\repos\\Anotations\\Anotations\\Anotations\\Anotations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuário\\Source\\Repos\\Anotations\\Anotations\\Anotations\\Anotations.csproj": {
+    "C:\\Users\\Usuário\\source\\repos\\Anotations\\Anotations\\Anotations\\Anotations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuário\\Source\\Repos\\Anotations\\Anotations\\Anotations\\Anotations.csproj",
+        "projectUniqueName": "C:\\Users\\Usuário\\source\\repos\\Anotations\\Anotations\\Anotations\\Anotations.csproj",
         "projectName": "Anotations",
-        "projectPath": "C:\\Users\\Usuário\\Source\\Repos\\Anotations\\Anotations\\Anotations\\Anotations.csproj",
+        "projectPath": "C:\\Users\\Usuário\\source\\repos\\Anotations\\Anotations\\Anotations\\Anotations.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuário\\Source\\Repos\\Anotations\\Anotations\\Anotations\\obj\\",
+        "outputPath": "C:\\Users\\Usuário\\source\\repos\\Anotations\\Anotations\\Anotations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
