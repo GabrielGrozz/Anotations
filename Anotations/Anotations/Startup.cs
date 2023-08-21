@@ -1,4 +1,6 @@
 ﻿using Anotations.Context;
+using Anotations.Repository;
+using Anotations.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Anotations;
@@ -14,7 +16,8 @@ public class Startup
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));                                                        
+        services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+        services.AddTransient<IAnotationRepository, AnotationRepository>();
         services.AddControllersWithViews();
     }
 

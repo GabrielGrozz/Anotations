@@ -1,0 +1,9 @@
+﻿@model AnotationsViewModel
+
+<div>
+    @foreach(var anotation in Model.Anotations)
+    {
+        <h2>@anotation.Name</h2>
+        <p>@anotation.Content</p>        
+    }
+</div>
